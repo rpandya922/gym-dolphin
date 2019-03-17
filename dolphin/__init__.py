@@ -1,5 +1,5 @@
 from gym.envs.registration import register
-from gym.scoreboard.registration import add_task, add_group
+#from gym.scoreboard.registration import add_task, add_group
 
 from .ssbm_env import SSBMEnv, simpleSSBMEnv
 
@@ -32,11 +32,11 @@ register(
 
 # Scoreboard registration
 # ==========================
-add_group(
-    id= 'ssbm',
-    name= 'Super Smash Bros. Melee',
-    description= 'Beat the in-game AIs at SSBM.'
-)
+# add_group(
+#     id= 'ssbm',
+#     name= 'Super Smash Bros. Melee',
+#     description= 'Beat the in-game AIs at SSBM.'
+# )
 
 """
 add_task(
