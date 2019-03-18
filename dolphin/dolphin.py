@@ -276,7 +276,7 @@ class DolphinRunner(Default):
       self.setupUser(self.user)
   
   def __call__(self):
-    args = [self.exe, "--user", self.user, "--exec", self.iso]
+    args = [self.exe, "--exec", self.iso]
     if self.movie is not None:
       args += ["--movie", self.movie]
     
